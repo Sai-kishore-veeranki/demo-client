@@ -11,4 +11,9 @@ public class DemoEndPoint {
     public String getName() {
         return "Hello from DevTrust Demo Client!";
     }
+
+    @GetMapping("/number")
+    public int getNumber() {
+        return 67;
+    }
 }
