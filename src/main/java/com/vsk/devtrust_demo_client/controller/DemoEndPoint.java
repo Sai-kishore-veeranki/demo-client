@@ -16,4 +16,9 @@ public class DemoEndPoint {
     public int getNumber() {
         return 67;
     }
+
+    @GetMapping("/boolean")
+    public boolean getBoolean() {
+        return true;
+    }
 }
