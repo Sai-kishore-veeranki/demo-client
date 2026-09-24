@@ -19,6 +19,6 @@ public class DemoEndPoint {
 
     @GetMapping("/boolean")
     public boolean getBoolean() {
-        return true;
+        return false;
     }
 }
